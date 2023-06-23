@@ -68,18 +68,13 @@ public:
 		}
 
 		cout << "\nElements is the queue ars...\n";
-	
 
-			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
-			if (FRONT == -1) {
-				cout << "Queue id Empty\n";
-				return;
+		//Jika FRONT_postion <= REAR_position, iterasi dari FRONT hingga REAR
+		if (FRONT_position <= REAR_position) {
+			while (FRONT_position <= REAR_position) {
+				cout << queue_array[FRONT_position] << " ";
+				FRONT_position++;
 			}
-
-			cout << "\nElements is the queue ars...\n";
-
-			//Jika FRONT_postion <= REAR_position, iterasi dari FRONT hingga REAR
-			if (FRONT_position)
 		
 	
 };
