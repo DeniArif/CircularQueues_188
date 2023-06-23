@@ -44,7 +44,7 @@ public:
 		if (FRONT == -1) {
 			cout << "Queue underflow\n";
 			return;
-		} 
+		}
 		cout << "\nThe element deleted from the queue is: " << queue_array[FRONT] << "\n";
 
 		//Cek jika antrian hanya memiliki satu element
@@ -53,6 +53,14 @@ public:
 			FRONT = -1;
 		}
 		else {
+			FRONT = FRONT + ;
+		}
+	}
+
+	void dsiplay() {
+		int
+	}
+
 			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
 			if (FRONT == -1) {
 				cout << "Queue id Empty\n";
@@ -61,7 +69,9 @@ public:
 
 			cout << "\nElements is the queue ars...\n";
 
-		}
-	}
+			//Jika FRONT_postion <= REAR_position, iterasi dari FRONT hingga REAR
+			if (FRONT_position)
+		
+	
 };
 
