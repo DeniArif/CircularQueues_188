@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-class Queue {
+class Queues {
 	;
 	int FRONT, REAR, max = 5;
 	int queue_array[5];
 
 public:
-	Queue() {
+	Queues() {
 		FRONT = -1;
 		REAR = -1;
 	}
@@ -95,4 +95,15 @@ public:
 		}
 	}	
 };
+
+int main() {
+	Queues q;
+	char ch;
+
+	while (true) {
+		try {
+
+		}
+	}
+}
 
