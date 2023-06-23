@@ -55,8 +55,12 @@ public:
 		else {
 			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
 			if (FRONT == -1) {
-
+				cout << "Queue id Empty\n";
+				return;
 			}
+
+			cout << "\nElements is the queue ars...\n";
+
 		}
 	}
 };
