@@ -54,7 +54,9 @@ public:
 		}
 		else {
 			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
-			if
+			if (FRONT == -1) {
+
+			}
 		}
 	}
 };
