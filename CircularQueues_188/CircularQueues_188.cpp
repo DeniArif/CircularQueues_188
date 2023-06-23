@@ -75,6 +75,11 @@ public:
 				cout << queue_array[FRONT_position] << " ";
 				FRONT_position++;
 			}
+			cout << endl;
+		}
+		else {
+			// Jika FRONT_position > REAR_position, itersasi dari front hingga akhir array
+			while (FRONT_position <= max - 1)
 		
 	
 };
