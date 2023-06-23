@@ -53,11 +53,11 @@ public:
 			FRONT = -1;
 		}
 		else {
-			FRONT = FRONT + ;
+			FRONT = FRONT + 1;
 		}
 	}
 
-	void dsiplay() {
+	void display() {
 		int FRONT_position = FRONT;
 		int REAR_position = REAR;
 
@@ -111,7 +111,35 @@ int main() {
 			cin >> ch;
 			cout << endl;
 
+			switch (ch) {
+			case '1': {
+				q.insert();
+				break;
+			}
+			case '2': {
+				q.remove();
+				break;
+			}
+			case '3': {
+				q.display();
+				break;
+			}
+			case'4': {
+				return 0;
+			}
+			default: {
+				cout << "Invalid Option!! " << endl;
+				break;
+			}
+			}
+		}
+		catch (exception& e) {
+			cout << " Check for the values entred." << endl;
 		}
 	}
+
+	return 0;
 }
+
+		
 
