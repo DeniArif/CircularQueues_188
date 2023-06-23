@@ -60,7 +60,15 @@ public:
 	void dsiplay() {
 		int FRONT_position = FRONT;
 		int REAR_position = REAR;
-	}
+
+		//Cek apakah antrian kosong
+		if (FRONT == -1) {
+			cout << "queue is empty\n";
+			return;
+		}
+
+		cout << "\nElements is the queue ars...\n";
+	
 
 			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
 			if (FRONT == -1) {
