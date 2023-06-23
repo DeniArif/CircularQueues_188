@@ -58,7 +58,8 @@ public:
 	}
 
 	void dsiplay() {
-		int
+		int FRONT_position = FRONT;
+		int REAR_position = REAR;
 	}
 
 			//Jika elemen yang di hapus berada di posisi terakhir array, kembali ke awal array
